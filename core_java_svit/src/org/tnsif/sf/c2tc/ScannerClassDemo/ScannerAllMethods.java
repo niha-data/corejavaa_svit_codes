@@ -4,25 +4,35 @@ public class ScannerAllMethods {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.println("Enter your name");
 		String name = scan.nextLine();
+		
 		System.out.println("Enter your age");
 		int age = scan.nextInt();
+		
 		System.out.println("Enter your height");
 		float height = scan.nextFloat();
+		
 		System.out.println("Are u a student");
 		boolean isstdent =scan.nextBoolean();
+		
 		System.out.println("Enter your aadhar number");
 		long aadhar = scan.nextLong();
 		scan.nextLine();
+		
 		System.out.println("Enter your favourite teacher");
 		String teacher=scan.nextLine();
+		
 		System.out.println("Enter your hobby");
 		String hobby = scan.nextLine();
+		
 		System.out.println("Enter your daily reading times in minutes");
 		byte readingtime = scan.nextByte();
+		
 		System.out.println("Enter your CGPA");
 		double cgpa = scan.nextDouble();
+		
 		System.out.println("Enter no. of siblings you have");
 		short siblings = scan.nextShort();
 		
